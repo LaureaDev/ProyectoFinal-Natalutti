@@ -1,0 +1,18 @@
+/*MAPAS*/
+$articulo:(
+    /*Key - Valor*/
+    text-color-card: #1A5276,
+    bg-color-card: #e3f6fc,
+
+);
+
+.articulo {
+    background-color: map-get($articulo, bg-color-card);
+}
+
+.card-title,
+h3 {
+    color: map-get($articulo, text-color-card);
+}
+
+;

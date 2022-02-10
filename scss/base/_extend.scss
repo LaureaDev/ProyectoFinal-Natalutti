@@ -1,0 +1,18 @@
+%numbers {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+%numer {
+    width: 50%;
+    border-radius: 10px;
+    padding: 40px 35px;
+    margin-bottom: 25px;
+}
+
+.card-body {
+    background-color: #b5c7d3;
+
+}

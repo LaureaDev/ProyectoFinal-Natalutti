@@ -1,0 +1,16 @@
+/*Submit*/
+$colores:#00416A,
+#d42a2a;
+$warnings:#780808;
+
+.submit {
+    background-color: $colores;
+}
+
+.warnings {
+    color: $warnings;
+}
+
+.h1-reg {
+    color: ligthten($colores, 20%);
+}
